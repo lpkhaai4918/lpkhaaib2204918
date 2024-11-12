@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Môn Toán</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Môn Toán</h1>
+        <img src="pt.jpg" alt="Hình ảnh minh họa Toán" class="header-image">
+    </header>
+
+    <main>
+        <section>
+            <h2>Giải phương trình bậc hai</h2>
+            <form id="quadratic-form">
+                <label for="a">Nhập a:</label>
+                <input type="number" id="a" required><br>
+
+                <label for="b">Nhập b:</label>
+                <input type="number" id="b" required><br>
+
+                <label for="c">Nhập c:</label>
+                <input type="number" id="c" required><br>
+
+                <button type="button" onclick="solveQuadratic()">Giải phương trình</button>
+            </form>
+            <p id="result"></p>
+        </section>
+
+        <section>
+            <a href="ngu-van.html" class="button">Quay lại Môn Ngữ Văn</a>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
